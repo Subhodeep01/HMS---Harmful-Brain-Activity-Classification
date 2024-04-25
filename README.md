@@ -41,3 +41,7 @@ The project utilizes a combination of signal processing techniques, feature extr
 **Model Evaluation**: Assessing the performance of trained model using Kullback Liebler divergence between the predicted probability and the observed target.<br/>
 **Submission**: For each eeg_id in the test set, predict a probability for each of the vote columns. <br/>
 
+## Collaborators:
+**Subhodeep Ghosh**
+**Soham Gupta**
+**Jyotiraditya Saha**
