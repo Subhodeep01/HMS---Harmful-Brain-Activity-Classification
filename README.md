@@ -5,6 +5,7 @@ The goal of this competition is to detect and classify seizures and other types 
 This is a project hosted on Kaggle, employing machine learning techniques to analyze EEG and spectrogram data to classify various harmful brain activities. The project focuses on aiding medical professionals in diagnosing and understanding neurological disorders more effectively.
 
 ## Dataset
+The dataset is available at Kaggle and can be downloaded using the following command: kaggle competitions download -c hms-harmful-brain-activity-classification(Link to Kaggle api documentation and usage - https://github.com/Kaggle/kaggle-api)<br/>
 The dataset comprises EEG and spectrogram readings collected over time from patients exhibiting harmful brain activities. 
 
 **train.csv** Metadata for the train set. The expert annotators reviewed 50 second long EEG samples plus matched spectrograms covering 10 a minute window centered at the same time and labeled the central 10 seconds. Many of these samples overlapped and have been consolidated. train.csv provides the metadata that allows you to extract the original subsets that the raters annotated.
