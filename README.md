@@ -34,3 +34,6 @@ The project utilizes a combination of signal processing techniques, feature extr
 **Model Training**: Vector embeddings were created for the data before feeding into the model. Utilizing various machine learning algorithms such as LSTM(Long Short-Term Memory) and MLP(Multilayer Perceptron).<br/>
 **Model Evaluation**: Assessing the performance of trained model using Kullback Liebler divergence between the predicted probability and the observed target.<br/>
 **Submission**: For each eeg_id in the test set, predict a probability for each of the vote columns. <br/>
+
+### Link to Kaggle notebook: 
+https://www.kaggle.com/code/subhodeepghosh01/3lancers-neural-net/notebook
