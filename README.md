@@ -36,7 +36,7 @@ The project utilizes a combination of signal processing techniques, feature extr
 
 **Preprocessing**: Cleaning and preparing the EEG and spectrogram data for analysis, including noise reduction and normalization.<br/>
 **Feature Extraction**: Identifying relevant features from the data that characterize different types of harmful brain activities.<br/>
-**Model Training**: Vector embeddings were created for the data before feeding into the model. Utilizing various machine learning algorithms such as LSTM(Long Short-Term Memory) and MLP(Multilayer Perceptron).<br/>
+**Model Training**: Vector embeddings were created for the data before feeding into the model. Utilizing various machine learning algorithms such as LSTM(Long Short-Term Memory) and MLP(Multilayer Perceptron). Other ML techniques such as XGboost, RFC and LGboost were ran in ensemble to get better results.<br/>
 **Model Evaluation**: Assessing the performance of trained model using Kullback Liebler divergence between the predicted probability and the observed target.<br/>
 **Submission**: For each eeg_id in the test set, predict a probability for each of the vote columns. <br/>
 
