@@ -42,6 +42,6 @@ The project utilizes a combination of signal processing techniques, feature extr
 **Submission**: For each eeg_id in the test set, predict a probability for each of the vote columns. <br/>
 
 ## Collaborators:
-**Subhodeep Ghosh**
-**Soham Gupta**
+**Subhodeep Ghosh**<br/>
+**Soham Gupta**<br/>
 **Jyotiraditya Saha**
