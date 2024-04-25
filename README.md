@@ -1,6 +1,9 @@
 # HMS---Harmful-Brain-Activity-Classification
 The goal of this competition is to detect and classify seizures and other types of harmful brain activity. The classification categories include seizures (SZ), generalized periodic discharges (GPD), lateralized periodic discharges (LPD), lateralized rhythmic delta activity (LRDA), generalized rhythmic delta activity (GRDA), or "other".
 
+### Link to Kaggle notebook: 
+https://www.kaggle.com/code/subhodeepghosh01/3lancers-neural-net/notebook
+
 ## Overview
 This is a project hosted on Kaggle, employing machine learning techniques to analyze EEG and spectrogram data to classify various harmful brain activities. The project focuses on aiding medical professionals in diagnosing and understanding neurological disorders more effectively.
 
@@ -37,5 +40,3 @@ The project utilizes a combination of signal processing techniques, feature extr
 **Model Evaluation**: Assessing the performance of trained model using Kullback Liebler divergence between the predicted probability and the observed target.<br/>
 **Submission**: For each eeg_id in the test set, predict a probability for each of the vote columns. <br/>
 
-### Link to Kaggle notebook: 
-https://www.kaggle.com/code/subhodeepghosh01/3lancers-neural-net/notebook
